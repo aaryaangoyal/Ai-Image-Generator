@@ -1,15 +1,16 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
-
-function App(){
-  return( 
-  <>
-  <h1 id='head'>Image Generator</h1>
-  <div>
-    <input></input>
-    <button><FontAwesomeIcon icon={byPrefixAndName.fas['arrow-up']} /></button>
-  </div>
-  </>
+function App() {
+  return (
+    <>
+      <h1 id='hero'>Image Generator</h1>
+      <div>
+        <input id='text'></input>
+        <button id='btn'><i class="fa-solid fa-arrow-up"></i></button>
+      </div>
+      <hr/>
+      <div>
+        <img src='https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg'></img>     
+      </div>
+    </>
   )
 }
 export default App
