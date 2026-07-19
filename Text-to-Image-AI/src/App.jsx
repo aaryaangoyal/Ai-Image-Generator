@@ -12,7 +12,9 @@ function App() {
       </div>
       <hr/>
       <div>
-        <bu></bu>
+        <bu>
+          hlo
+        </bu>
       </div>
       <div>
         <img src='https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg'></img>     
